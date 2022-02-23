@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "australiaeast"
+    },
+    "vnetName": {
+      "value": "vnet-1"
+    },
+    "vnetAddressSpacePrefix": {
+      "value": "10.10.10.0/24"
+    },
+    "existingVnetName": {
+      "value": "hub-vnet"
+    },
+    "existingVnetResourceGroup": {
+      "value": "hub-rg"
+    }
+  }
+}
